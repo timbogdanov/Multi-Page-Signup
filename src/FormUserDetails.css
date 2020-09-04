@@ -1,0 +1,77 @@
+.w-100 input {
+  width: 100%;
+}
+
+.w-50-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.w-50 {
+  width: 48%;
+}
+
+.w-50 label,
+.w-100 label {
+  margin-bottom: 10px;
+  display: block;
+  font-size: .8rem;
+  margin-top: 15px;
+  color: #999999;
+}
+
+.w-50 input {
+  width: 100%;
+}
+
+.w-50 input,
+.w-100 input,
+button {
+  font-size: .9rem;
+}
+
+input::placeholder {
+  color: #666666;
+}
+
+.form-split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.split div {
+  width: 100%;
+}
+
+.split #expMonth {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.split #expYear {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+}
+
+.split #state {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.split #zip {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+}
+
+.back {
+  background: none;
+  width: 150px;
+}
